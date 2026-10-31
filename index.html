@@ -1,11 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231 - Web Frontend Development</title>
+    <meta name="description" content="My WDD231 Web Frontend 1 home page">
+    <meta name="author" content="Anderson Lima">
+    <title>Anderson Lima | WDD231</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/base.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 <body>
-    <h1>WDD 231 - Web Frontend Development</h1>
+    <header>
+        <img src="images/logo.svg" alt="Website logo" width="512" height="512">
+        <span>Anderson Lima</span>
+        <button id="nav-button" class="hamburger" aria-label="Toggle navigation" aria-expanded="false"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Anderson Lima, a Software Development student at BYU-Pathway Worldwide, living in Luanda, Angola. I'm learning web development and programming to build a career as a developer and support my family and community.</p>
+        </section>
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <img src="images/profile.jpg" alt="Portrait of Anderson Lima" width="400" height="400">
+        </section>
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="filters">
+                <button type="button" data-filter="all" class="active">All</button>
+                <button type="button" data-filter="CSE">CSE</button>
+                <button type="button" data-filter="WDD">WDD</button>
+            </div>
+            <div id="course-list" class="course-list"></div>
+            <p id="credits" class="credits"></p>
+        </section>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/anderson-lima-102423311"><img src="images/linkedin.svg" alt="LinkedIn" width="512" height="512"></a>
+            <a href="https://github.com/willlimaneto"><img src="images/logotipo-do-github.svg" alt="GitHub" width="512" height="512"></a>
+            <a href="#"><img src="images/instagram.svg" alt="Instagram" width="512" height="512"></a>
+            <a href="#"><img src="images/twitter.svg" alt="Twitter" width="512" height="512"></a>
+        </div>
+        <p>&copy; <span id="year"></span> ♣️ Anderson Lima ♣️ Luanda, Angola</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
 </body>
 </html>
