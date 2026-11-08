@@ -1,0 +1,84 @@
+{
+  "members": [
+    {
+      "name": "Kapalanga Tech Solutions",
+      "address": "Rua Principal 12, Viana, Luanda, Angola",
+      "phone": "+244 923 000 001",
+      "website": "https://www.kapalangatech.example.com",
+      "image": "kapalanga-tech.svg",
+      "membership": 3,
+      "description": "Web development and IT support for small businesses.",
+      "founded": 2015
+    },
+    {
+      "name": "Luanda Fresh Market",
+      "address": "Avenida 4 de Fevereiro 88, Luanda, Angola",
+      "phone": "+244 923 000 002",
+      "website": "https://www.luandafresh.example.com",
+      "image": "luanda-fresh.svg",
+      "membership": 2,
+      "description": "Fresh fruit, vegetables and local products.",
+      "founded": 2010
+    },
+    {
+      "name": "Baía Digital Marketing",
+      "address": "Rua Rainha Ginga 45, Luanda, Angola",
+      "phone": "+244 923 000 003",
+      "website": "https://www.baiadigital.example.com",
+      "image": "baia-digital.svg",
+      "membership": 3,
+      "description": "Social media management and online advertising.",
+      "founded": 2018
+    },
+    {
+      "name": "Mussulo Beach Café",
+      "address": "Ilha do Mussulo, Luanda, Angola",
+      "phone": "+244 923 000 004",
+      "website": "https://www.mussulocafe.example.com",
+      "image": "mussulo-cafe.svg",
+      "membership": 1,
+      "description": "Seafood restaurant and café by the beach.",
+      "founded": 2012
+    },
+    {
+      "name": "Kwanza Auto Parts",
+      "address": "Estrada de Catete Km 14, Viana, Luanda, Angola",
+      "phone": "+244 923 000 005",
+      "website": "https://www.kwanzaauto.example.com",
+      "image": "kwanza-auto.svg",
+      "membership": 2,
+      "description": "Car parts, tires and maintenance services.",
+      "founded": 2008
+    },
+    {
+      "name": "Girassol Clinic",
+      "address": "Rua da Missão 30, Maianga, Luanda, Angola",
+      "phone": "+244 923 000 006",
+      "website": "https://www.girassolclinic.example.com",
+      "image": "girassol-clinic.svg",
+      "membership": 3,
+      "description": "Family health care and laboratory exams.",
+      "founded": 2005
+    },
+    {
+      "name": "Palanca Books & Print",
+      "address": "Rua Direita 21, Ingombota, Luanda, Angola",
+      "phone": "+244 923 000 007",
+      "website": "https://www.palancabooks.example.com",
+      "image": "palanca-books.svg",
+      "membership": 1,
+      "description": "Bookstore, printing and school supplies.",
+      "founded": 2019
+    },
+    {
+      "name": "Semba Fitness Studio",
+      "address": "Avenida Deolinda Rodrigues 7, Luanda, Angola",
+      "phone": "+244 923 000 008",
+      "website": "https://www.sembafitness.example.com",
+      "image": "semba-fitness.svg",
+      "membership": 1,
+      "description": "Gym, group classes and personal training.",
+      "founded": 2020
+    }
+  ]
+}

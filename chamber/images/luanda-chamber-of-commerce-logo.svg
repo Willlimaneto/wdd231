@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Luanda Chamber of Commerce icon</title>
+  <desc id="desc">A navy and gold emblem showing the Luanda skyline above the curve of the bay.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E5BD68"/>
+      <stop offset="1" stop-color="#C9963F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="96" fill="#F8F7F3" stroke="#132D45" stroke-width="5"/>
+  <g transform="translate(18 18)">
+    <path d="M43 117V83h17v34M64 117V65h19v52M87 117V78h16v39M108 117V53h20v64M133 117V72h17v45M154 117V91h12v26" fill="#132D45"/>
+    <path d="M64 117V65h5v52M103 117V78h5v39M128 117V53h5v64" fill="#C9963F"/>
+    <path d="M37 124c20-10 38-10 56-2 18 8 33 8 50-1 12-6 23-7 36-3" fill="none" stroke="#132D45" stroke-width="5" stroke-linecap="round"/>
+    <path d="M40 137c24-8 45-7 64 0 19 7 37 6 56-2 7-3 13-4 19-4" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="151" cy="60" r="17" fill="#E5BD68"/>
+    <path d="M148 43a18 18 0 0 1 20 20" fill="none" stroke="#F8F7F3" stroke-width="3" stroke-linecap="round"/>
+    <path d="M43 157h34" stroke="#C43B31" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>

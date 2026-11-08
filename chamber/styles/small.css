@@ -1,0 +1,175 @@
+:root {
+    --navy: #132d45;
+    --gold: #e5bd68;
+    --cream: #f8f7f3;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--cream);
+    color: var(--navy);
+}
+
+a {
+    color: var(--navy);
+}
+
+/* Header and navigation */
+header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem 1rem;
+    background: var(--navy);
+    color: var(--cream);
+}
+
+header img {
+    width: 56px;
+    height: 56px;
+}
+
+header span {
+    flex: 1;
+    font-weight: bold;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    color: var(--gold);
+    font-size: 2rem;
+}
+
+.hamburger::before {
+    content: "☰";
+}
+
+nav {
+    display: none;
+    background: var(--gold);
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+}
+
+nav a:hover,
+.current a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Main */
+main {
+    padding: 1rem;
+}
+
+.view-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.view-buttons button {
+    padding: 0.5rem 1.5rem;
+    background: var(--cream);
+    color: var(--navy);
+    border: 2px solid var(--navy);
+}
+
+.view-buttons .active {
+    background: var(--navy);
+    color: var(--cream);
+}
+
+/* Cards */
+#cards {
+    display: grid;
+    gap: 1rem;
+    min-height: 100vh;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid var(--navy);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-top {
+    padding: 0.5rem;
+    text-align: center;
+    background: var(--gold);
+}
+
+.card-top h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.card-top p {
+    margin: 0;
+}
+
+.card-body {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card-body img {
+    width: 100px;
+    height: 75px;
+}
+
+.card-body p {
+    margin: 0 0 0.25rem;
+    overflow-wrap: anywhere;
+}
+
+/* List view has no images */
+#cards.list img {
+    display: none;
+}
+
+/* Footer */
+footer {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--navy);
+    color: var(--cream);
+}
+
+footer p {
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
