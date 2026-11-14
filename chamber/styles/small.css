@@ -173,3 +173,147 @@ footer p {
     width: 40px;
     height: 40px;
 }
+
+
+
+/* ===== Home page ===== */
+.hero {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cta {
+    position: absolute;
+    left: 50%;
+    bottom: 1rem;
+    transform: translateX(-50%);
+    padding: 0.75rem 1.5rem;
+    background: var(--gold);
+    color: var(--navy);
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid var(--navy);
+    border-radius: 8px;
+    white-space: nowrap;
+}
+
+.cta:hover,
+.cta:focus-visible {
+    background: var(--navy);
+    color: var(--gold);
+}
+
+.cta:focus-visible {
+    outline: 3px solid var(--cream);
+    outline-offset: 3px;
+}
+
+.info-grid {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.panel {
+    background: #fff;
+    border: 1px solid var(--navy);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.panel h2 {
+    margin: 0;
+    padding: 0.5rem;
+    background: var(--gold);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.panel-body {
+    padding: 1rem;
+}
+
+.events {
+    list-style: none;
+    margin: 0;
+}
+
+.events li {
+    padding: 0.4rem 0;
+    border-bottom: 1px solid var(--cream);
+}
+
+#weather {
+    text-align: center;
+}
+
+#weather img {
+    display: block;
+    margin: 0 auto;
+    background: #cfd8e3;
+    border-radius: 50%;
+}
+
+.temp {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.desc {
+    margin: 0 0 1rem;
+    text-transform: capitalize;
+}
+
+#weather h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.forecast {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.forecast li {
+    padding: 0.25rem 0;
+}
+
+#spotlight-cards {
+    display: grid;
+    gap: 1rem;
+}
+
+.spotlight {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid var(--navy);
+    border-radius: 8px;
+}
+
+.spotlight h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+}
+
+.spotlight img {
+    display: block;
+    margin: 0 auto 0.5rem;
+}
+
+.spotlight p {
+    margin: 0 0 0.25rem;
+    overflow-wrap: anywhere;
+}
+
+.level {
+    font-weight: bold;
+}
