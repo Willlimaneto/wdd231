@@ -50,12 +50,12 @@
         <section class="courses">
             <h2>Web Certificate Courses</h2>
             <div class="filters">
-                <button type="button" data-filter="all" class="active">All</button>
-                <button type="button" data-filter="CSE">CSE</button>
-                <button type="button" data-filter="WDD">WDD</button>
+                <button type="button" data-filter="all" class="active" aria-pressed="true">All</button>
+                <button type="button" data-filter="CSE" aria-pressed="false">CSE</button>
+                <button type="button" data-filter="WDD" aria-pressed="false">WDD</button>
             </div>
             <div id="course-list" class="course-list"></div>
-            <p id="credits" class="credits"></p>
+            <p id="credits" class="credits" aria-live="polite"></p>
         </section>
     </main>
     <footer>

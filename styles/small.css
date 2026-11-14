@@ -127,10 +127,18 @@ section p { margin: 0 1rem; }
     cursor: pointer;
 }
 
-.filters button.active,
-.filters button:hover {
+.filters button.active {
     background: var(--dark);
     color: var(--light);
+}
+
+.filters button.active::before {
+    content: "✓ ";
+}
+
+
+.filters button:hover:not(.active) {
+    background: #c9d4e8;
 }
 
 .course-list {
@@ -155,7 +163,7 @@ section p { margin: 0 1rem; }
 
 .credits {
     text-align: center;
-    margin-top: .75rem !important;
+    margin-top: .75rem;
 }
 
 footer {
@@ -177,4 +185,27 @@ footer p { margin: .25rem 0; }
     display: block;
     width: 40px;
     height: 40px;
+}
+
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #005fcc;
+    outline-offset: 3px;
+}
+
+.navigation a:focus-visible {
+    outline: 3px solid var(--light);
+    outline-offset: -5px;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+
+.filters button:focus-visible,
+.filters button.active:focus-visible {
+    background: #1AA38A;
+    color: #111111;
+    outline: 4px solid #111111;
+    outline-offset: 2px;
 }

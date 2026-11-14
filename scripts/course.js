@@ -112,4 +112,8 @@ buttons.forEach(button => {
     });
 });
 
+document.querySelectorAll('.filters button').forEach(b => {
+  b.setAttribute('aria-pressed', b.classList.contains('active'));
+});
+
 displayCourses(courses);
