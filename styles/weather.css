@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #E8EEF7;
+  color: #111111;
+}
+
+header,
+footer {
+  background: #1F2A44;
+  color: #E8EEF7;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  max-width: 300px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 1px solid #1F2A44;
+  border-radius: 12px;
+  text-align: center;
+}
+
+#current-temp {
+  font-weight: 700;
+}
+
+figcaption {
+  text-transform: capitalize;
+}
